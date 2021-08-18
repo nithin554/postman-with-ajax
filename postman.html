@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Postman</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="postman.js"></script>
+    </head>
+    <style>
+        #method{
+            position: absolute;
+            left: 200px;
+            top: 100px;
+            width: 100px;
+            height: 30px;
+        }
+        #address{
+            position: absolute;
+            left: 320px;
+            top: 100px;
+            width: 800px;
+            height: 30px;
+        }
+        button{
+            position: absolute;
+            left: 1140px;
+            top: 100px;
+            width: 100px;
+            height: 30px;
+        }
+        table{
+            position: absolute;
+            left: 100px;
+            top: 150px;
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+    <body>
+        <select id="method">
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+            <option value="PUT">PUT</option>
+            <option value="DELETE">DELETE</option>
+        </select>
+        <input type="url" id="address">
+        <button type="submit" onclick="postman()">Submit</button>
+        <table>
+            <tr>
+                <th>Output</th>
+                <th>POST/PUT Data</th>
+            </tr>
+            <tr>
+                <td><textarea rows="20" cols="100" id="console" readonly></textarea></td>
+                <td><textarea rows="20" cols="100" id="dataconsole"></textarea></td>
+            </tr>
+        </table>
+    </body>
+</html>
