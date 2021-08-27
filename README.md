@@ -1,9 +1,9 @@
 # postman-with-ajax
 
-##Pre-Requisites - Node.js
+* Pre-Requisites - Node.js
 
-##Start the Postman with Node.js using command - node app.js
+* Start the Postman with Node.js using command - node app.js
 
-##Functionalities - GET, POST, PUT, DELETE
+* Functionalities - GET, POST, PUT, DELETE
 
-##If facing CORS policy issue please refer CORS policy for your respective server.
+### If facing CORS policy issue please refer CORS policy for your respective server.
